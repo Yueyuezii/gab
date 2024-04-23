@@ -30,11 +30,11 @@ public class PushMe extends Application
         pushMeButton.setOnAction(e -> pushMeLabel.setText("You entered: " + pushMeTextField.getText()));
         
         Button UpperCase = new Button();
-        UpperCase.setText("Type something in the box and make it uppercase");
+        UpperCase.setText("Convert to Upper Case");
         UpperCase.setOnAction(e -> pushMeLabel.setText("You entered:" + pushMeTextField.getText().toUpperCase()));
         
         Button LowerCase = new Button();
-        LowerCase.setText("Type something in the box and make it lowercase");
+        LowerCase.setText("Convert to Lower Case");
         LowerCase.setOnAction(e -> pushMeLabel.setText("You entered: " + pushMeTextField.getText().toLowerCase()));
         
         // create and configure a VBox to hold our components       
