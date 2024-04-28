@@ -22,7 +22,7 @@ public class SimpleCalculator extends Application {
         Button mul = new Button("*");
         Button div = new Button("/");
 
-        // Event handlers for the buttons
+       
         add.setOnAction(e -> calculateResult(n1, n2, resultLabel, "+"));
        
         sub.setOnAction(e -> calculateResult(n1, n2, resultLabel, "-"));
@@ -31,7 +31,7 @@ public class SimpleCalculator extends Application {
        
         div.setOnAction(e -> calculateResult(n1, n2, resultLabel, "/"));
 
-        // Layout setup
+        
         VBox root = new VBox(10);
         root.setPadding(new Insets(20));
         root.setAlignment(Pos.CENTER_LEFT);
